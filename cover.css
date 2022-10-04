@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.cover {
+  width: 350px;
+  height: 500px;
+  /* finish your styling of the cover div here! */
+  background-color: gray;
+  margin: auto;
+}
+#title {
+  border-radius: 2px;
+  margin-bottom: 15px;
+  margin-left: -2px;
+  margin-right: -2px;
+  padding: 2px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#subtitle {
+  margin-top: 15px;
+  text-align:right;
+  font-size: 20px;
+  opacity: .5;
+  color:aqua;
+}
+
+#cover_image {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
